@@ -1,0 +1,78 @@
+/* Table of Contents
+1.
+2. Bootstrap Overrides
+3. Content CSS 
+4.
+5.
+
+*/
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: #202623;
+}
+
+p{
+    font-family: 'Arimo', sans-serif;
+}
+
+
+
+/*
+---------------
+Bootstrap Overrides 
+---------------
+*/
+
+.navbar{
+    background-color: #171B1B !important;
+    color: #2B83C5 !important;
+}
+
+/*
+---------------
+Content CSS 
+---------------
+*/
+
+.buttonRow{
+    padding: 20px;
+}
+
+#game{
+    display: none;
+}
+
+.main-container{
+    background-color: #2B83C5;
+}
+
+.content{
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    height: 90%;
+    max-height: 90%;
+}
+
+.userGuesses{
+    background-color: #171B1B;
+    padding: 10px;
+    color: #08ACD4;
+}
+#answerDisplay{
+    letter-spacing: 3px;
+}
+#lives{
+    font-size: 30px;
+    font-family: 'Roboto Mono', sans-serif;
+}
+#startBtn{
+    display: inline-block;
+}
